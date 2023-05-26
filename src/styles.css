@@ -13,33 +13,42 @@
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 12px;
+  box-shadow: 0px 8px 15px rgba(128, 17, 246, 0.3);
 }
-
+.search-form {
+  padding: 10px 20px;
+  box-shadow: 1px 1px 1px 1px rgba(128, 17, 246, 0.3);
+}
 .search-Button {
   background-color: #8ab9d0;
   color: white;
   border: 1px solid;
   border-radius: 10px;
-  padding: 6px 12px;
+  padding: 10px 12px;
   font-size: 12px;
+  box-shadow: 0px 8px 15px rgba(13, 13, 14, 0.2);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 .current-Button {
-  background-color: #aa9ec3;
+  background-color: #ab9cca;
   color: white;
   border: 1px solid;
   border-radius: 10px;
 
-  padding: 6px 12px;
+  padding: 10px 12px;
   font-size: 12px;
+  box-shadow: 0px 8px 15px rgba(22, 22, 22, 0.2);
 }
 
 h1 {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: 600;
   color: black;
   font-family: "Poppins", sans-serif;
-  margin: 8px;
+  margin: 12px;
   line-height: 28px;
 }
 ul {
