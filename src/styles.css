@@ -101,6 +101,7 @@ p {
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+  text-shadow: rgba(128, 17, 246, 0.9);
 }
 
 .weather-temperature .units {
